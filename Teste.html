@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Quadrados</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .quadrado {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            margin: 0.5px;
+        }
+
+        .linha {
+            display: flex;
+            justify-content: center;
+        }
+
+        .red-border {
+            background-color: red;
+            border: none;
+        }
+
+        .blue {
+            background-color: blue;
+            border: none;
+        }
+
+        .green {
+            background-color: green;
+            border: none;
+        }
+
+        .yellow {
+            background-color: yellow;
+            border: none;
+        }
+
+        .top-left, .top-right, .bottom-left, .bottom-right {
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+        <div>
+        <div class="container">
+        <div class="linha">           
+            <div class="quadrado red-border top-left"></div>
+            <div class="quadrado red-border"></div>
+            <div class="quadrado red-border"></div>
+            <div class="quadrado red-border"></div>
+            <div class="quadrado red-border"></div>
+            <div class="quadrado red-border top-right"></div>
+            
+        </div>
+        <div class="linha">
+            <div class="quadrado red-border"></div>
+            <div class="quadrado blue"></div>
+            <div class="quadrado blue"></div>
+            <div class="quadrado blue"></div>
+            <div class="quadrado blue"></div>
+            <div class="quadrado red-border"></div>
+        </div>
+        <div class="linha">
+            <div class="quadrado red-border"></div>
+            <div class="quadrado green"></div>
+            <div class="quadrado green"></div>
+            <div class="quadrado green"></div>
+            <div class="quadrado green"></div>
+            <div class="quadrado red-border"></div>
+        </div>
+        <div class="linha">
+            <div class="quadrado red-border"></div>
+            <div class="quadrado yellow"></div>
+            <div class= "quadrado yellow"></div>
+            <div class="quadrado yellow"></div>
+            <div class="quadrado yellow"></div>
+            <div class="quadrado red-border"></div>
+        </div>
+        <div class="linha">
+            <div class="quadrado red-border bottom-left"></div>
+            <div class="quadrado red-border"></div>
+            <div class="quadrado red-border"></div>
+            <div class="quadrado red-border"></div>
+            <div class="quadrado red-border"></div>
+            <div class="quadrado red-border bottom-right"></div>
+        </div>  
+        
+ </body>  
+ </html>  
